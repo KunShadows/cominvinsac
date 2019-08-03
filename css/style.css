@@ -726,8 +726,6 @@ ol {
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
-    overflow: auto;
-    display: block;
 }
 
 .slide-content:after {
@@ -738,8 +736,6 @@ ol {
     top: 0;
     left: 0;
     opacity: 0.73;
-    overflow: auto;
-    display: block;
 }
 
 .slide-content h2 {
@@ -750,8 +746,6 @@ ol {
     background-color: rgba(34, 34, 34, 0.5);
     font-size: 60px;
     text-align: start;
-    overflow: auto;
-    display: block;
 }
 
 .slide-content h3 {
@@ -762,8 +756,6 @@ ol {
     background-color: rgba(34, 34, 34, 0.5);
     font-size: 40px;
     text-align: left;
-    overflow: auto;
-    display: block;
 }
 
 .owl-item.active .slide-content {
