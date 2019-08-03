@@ -609,7 +609,7 @@ ol {
         color: rgb(24, 23, 23);
         background: rgba(255, 255, 255, 0.411);
         text-transform: uppercase;
-        letter-spacing: 20px;
+        letter-spacing: 10px;
         font-size: 1vw;
     }
 }
