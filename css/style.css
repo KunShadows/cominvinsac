@@ -618,6 +618,7 @@ ol {
     width: 100%;
     height: 960px;
     display: table;
+    /* animation: cambio 20s infinite alternate; */
     /*animation: cambio 20s infinite alternate linear;*/
 }
 
@@ -628,32 +629,19 @@ ol {
 }
 
 
-/*@keyframes cambio {
-    0% {
-        margin-left: 0;
-    }
-    20% {
-        margin-left: 0;
-    }
-    25% {
-        margin-left: -100%;
-    }
-    45% {
-        margin-left: -100%;
-    }
-    50% {
-        margin-left: -200%;
-    }
-    60% {
-        margin-left: -200%;
-    }
-    70% {
-        margin-left: -200%;
-    }
-    100% {
-        margin-left: -200%;
-    }
-}*/
+/* @keyframes cambio {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    60% { margin-left: -200%; }
+
+    70% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+} */
 
 .hero-slider .owl-nav {
     position: absolute;
@@ -1289,9 +1277,10 @@ ol {
 }
 
 .ts-item h4 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
-    color: #df213b;
+    color: #fff;
+    /* color: #df213b; */
     margin-bottom: 0;
 }
 
